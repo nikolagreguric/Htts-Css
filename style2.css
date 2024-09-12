@@ -1,0 +1,41 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+  CSS grundlegendes Muster:
+  Selector { was damit zu machen ist }
+  
+  Kommentiert wird in Blöcken, umschlossen
+  von den witzigen Schrägstrichen mit Sternchen.
+  */
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  .title-image {
+    height:50vh;
+    width:100%;
+    object-fit: cover;
+    filter: sepia(0.5);
+ }
+ .banane {
+    height: 20rem;
+    width: 25rem;
+    border-radius: 2rem;
+ }
+  section {
+    width: 30rem;
+    background-color: #ffeced;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  li {
+    color: green;
+    font-weight: bold;
+  }

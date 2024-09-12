@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style2.css">
+
+  <title>Früchte und mehr</title>
+
+</head>
+<body>
+
+  <!-- Kommentare in HTML können wir so schreiben. -->
+
+  <!-- Semantische Tags. Diese hier funktionieren genau wie der div-Tag, aber tragen für Entwickler und zB visuell eingeschränkte Webseitenbesucher wichtige Bedeutung (Achtung: gewisse Accessibility-Regeln sind für öffentliche Webseiten bald gesetzlich vorgeschrieben!!):
+  header
+  main, section, article
+  footer -->
+
+  <header>
+    <!-- heading 1. Davon gibt es alles von 1 bis 6. Sie sollten hierarchisch angeordnet sein, zB für Accessibility-Features wie Screen-Reader -->
+
+    <img src="Bilder/slika.jpeg" class="title-image">
+    <h1>Hier gibt es alles über Früchte :-)</h1>
+  </header>
+
+  
+  <main>
+    <h2>Die besten</h2> <!-- heading 2 -->
+
+    <section>
+      <h3> <!-- paragraph -->
+        Mango
+      </h3>
+      <p>
+        sie sind so toll und rund und günstig und immer essbar, außer wenn sie unreif sind :( <a href="https://de.yahoo.com/?guccounter=1">hier ist yahoo</a>
+      </p>
+      <img src="https://www.hansemuehle.de/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/o/fotolia_44292315_m.jpg"> <!-- image -->
+      <ul> <!-- unordered list -->
+        <li>saftig</li> <!-- list (entry), muss in ul oder ol sein -->
+        <li>lecker</li>
+        <li>schwer zu schälen</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>
+        Banane
+      </h3>
+      <p>
+        krumm und gelb und wunderbar.
+        <a href="fruit-details/banana.html">Mehr Infos zur Banane</a>
+      </p>
+      <img src="https://www.wissenschaft.de/wp-content/uploads/2/1/21-03-bananen.jpg">
+      <ol> <!-- ordered list -->
+        <li>weich</li>
+        <li>lecker</li>
+        <li>einfach zu schälen</li>
+      </ol>
+    </section>
+
+
+    <h2>Die schlechtesten</h2>
+    <section>
+      <h3>
+        Gurke
+      </h3>
+      <p>
+        nur Wasser und kaum Geschmack
+      </p>
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0uiNint7Bging0vkW4gQ9Xh4be_9vgPnCZ5F6dJ3pYLqrFPcH">
+      <ol> <!-- ordered list -->
+        <li>hart</li>
+        <li>Wasser</li>
+        <li>wo Geschmack?!?!?!</li>
+      </ol>
+    </section>
+  </main>
+
+
+  <footer>
+    <div>
+      <p>
+        Impressum: Fritz Hausen
+      </p>
+      <p>
+        Kontakt: +49123455
+      </p>
+      <p>
+        Anfahrt:
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
